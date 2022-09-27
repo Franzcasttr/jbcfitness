@@ -1,6 +1,6 @@
 const Clips = () => {
   return (
-    <div className='mb-16 mt-20'>
+    <div className='mb-32 mt-20'>
       <p className='font-bold text-3xl text-center'>
         Here are some clips of our clients
       </p>

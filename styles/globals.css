@@ -25,6 +25,7 @@ a {
 
 .background-clr {
   @apply bg-[#FF008A];
+  /* @apply bg-[#FF008A]; */
 }
 .text-clr {
   @apply text-[#FF008A];
@@ -34,6 +35,24 @@ a {
 .neon {
   box-shadow: -6px -6px 12px rgba(167, 127, 252, 0.4),
     6px 6px 12px rgba(167, 127, 252, 0.4);
+}
+
+.pricing:nth-child(2) {
+  background-color: #7593ff;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  height: 40px;
+  outline: none;
+  border: none;
+  border: 1px solid #14dab6;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  background: none;
+  margin-bottom: 1.5rem;
+  border-radius: 19px;
 }
 
 .video-container {

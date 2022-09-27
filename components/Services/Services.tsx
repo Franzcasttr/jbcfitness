@@ -4,7 +4,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 const Services = () => {
   return (
-    <div className='mb-16 md:flex gap-4 items-center'>
+    <div className='mb-32 md:flex gap-4 items-center'>
       <div className='mb-10'>
         <Image src={section3} alt='section3 Image' />
       </div>
