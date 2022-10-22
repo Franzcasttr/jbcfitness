@@ -1,10 +1,31 @@
 import Image from 'next/image';
-import contact from '../../assets/contact.png';
+import Link from 'next/link';
+import { ImFacebook2 } from 'react-icons/im';
 
 const Contact = () => {
   return (
     <div className='my-32'>
       <p className='text-center font-semibold text-3xl'>Have a question?</p>
+      <p className='text-gray-500 mt-4 text-sm text-center'>
+        You can contact us through our facebook account
+      </p>
+      <div className='mt-8'>
+        <Link href='https://www.facebook.com/'>
+          <a>
+            <div className='flex flex-col items-center gap-2'>
+              <ImFacebook2 className='text-blue-400 text-4xl' />
+              <p>Facebook</p>
+            </div>
+          </a>
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
+{
+  /* <p className='text-center font-semibold text-3xl'>Have a question?</p>
       <p className='text-gray-500 mt-4 text-sm text-center'>
         Whether you’re at the beginning of your fitness journey or desprerate
         need of some motivation to keep going. At JBC fitness gym we value our
@@ -39,9 +60,5 @@ const Contact = () => {
             </button>
           </form>
         </div>
-      </div>
-    </div>
-  );
-};
-
-export default Contact;
+      </div> */
+}

@@ -10,7 +10,7 @@ const Footer = () => {
               <span className='text-clr'>JBC</span>
               <p>Fitness</p>
             </div>
-            <p>Brgy. Alabug, Tuao Cagayan, Philippinesss</p>
+            <p>Brgy. Alabug, Tuao Cagayan, Philippines</p>
             <div className='my-4'>
               <p>Tel:</p>
               <p>0917-622-3204</p>

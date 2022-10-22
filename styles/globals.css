@@ -71,6 +71,35 @@ textarea {
   height: 100%;
 }
 
+.modal-backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+
+.content {
+  position: fixed;
+  width: 20rem;
+  height: fit-content;
+  max-width: 1170px !important;
+
+  background: #dae2ed;
+  /* height: 70vh; */
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+  /* margin: 0 auto;
+   */
+}
+
 @media (max-width: 767px) {
   .menu {
     display: none;

@@ -20,7 +20,7 @@ export const ReviewsData = [
       'Whether you’re at the beginning of your fitness journey or desprerate need of some motivation to keep going.',
   },
   {
-    id: 2,
+    id: 3,
     img: thirdImage,
     name: 'Mahbajo Akho',
     position: 'LGU',

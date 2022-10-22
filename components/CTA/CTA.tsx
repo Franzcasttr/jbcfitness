@@ -1,7 +1,12 @@
 import Image from 'next/image';
+import { SetStateAction } from 'react';
 import modelcta from '../../assets/modelcta.png';
 
-const CTA = () => {
+const CTA = ({
+  setOpenModal,
+}: {
+  setOpenModal: React.Dispatch<SetStateAction<boolean>>;
+}) => {
   return (
     <div className='md:flex justify-between mb-16'>
       <div>
@@ -11,14 +16,16 @@ const CTA = () => {
           <br /> Exercise
         </p>
         <p className='text-xs text-center my-4 text-gray-500 md:text-left md:leading-5 md:text-sm'>
-          Most of are well aware of the manyhealth benefits of exercise, but
+          Most of us are well aware of the manyhealth benefits of exercise, but
           <br />
           finding the discipline to not only start training but also to stick
           with
           <br /> it is often the hard part.
         </p>
         <div className='text-center mt-8 md:text-left'>
-          <button className='px-8 py-2 background-clr rounded-md font-bold text-lg'>
+          <button
+            className='px-8 py-2 background-clr rounded-md font-bold text-lg'
+            onClick={() => setOpenModal(true)}>
             Join Us
           </button>
         </div>
