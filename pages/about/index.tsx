@@ -43,7 +43,7 @@ const AboutUs = () => {
         </AnimatePresence>
       </div>
       <Navbar setOpenModal={setOpenModal} />
-      AboutUs
+      <p>JBC Fitness Gym started</p>
     </div>
   );
 };

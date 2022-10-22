@@ -10,7 +10,7 @@ const Contact = () => {
         You can contact us through our facebook account
       </p>
       <div className='mt-8'>
-        <Link href='https://www.facebook.com/'>
+        <Link href='https://web.facebook.com/JBCFitness18?_rdc=1&_rdr'>
           <a>
             <div className='flex flex-col items-center gap-2'>
               <ImFacebook2 className='text-blue-400 text-4xl' />

@@ -1,28 +1,28 @@
 export const PricingData = [
   {
     id: 1,
-    title: 'Starter',
-    price: 75,
+    title: 'Daily',
+    price: 70,
     service: 'session',
-    includes: ['₱75 per session', 'Free Water'],
+    includes: ['Free Water'],
   },
   {
     id: 2,
-    title: 'Standard',
-    price: 350,
+    title: 'Weekly',
+    price: 400,
     service: '2 weeks',
-    includes: ['Professional Trainer', 'Free Water', 'Free membership'],
+    includes: [ 'Free Water', '2 consecutive weeks only'],
   },
   {
     id: 3,
-    title: 'Premium',
+    title: 'Monthly',
     price: 700,
     service: 'monthly',
     includes: [
-      'Professional Trainer',
+     
       'Free Water',
-      'Free membership',
-      'Free 1 month membership if you pay 3 months advance',
+      '₱100 membership fee good for 1-year',
+      'Pay 3 months advance get 1 month free promo',
     ],
   },
 ];

@@ -13,7 +13,7 @@ const Footer = () => {
             <p>Brgy. Alabug, Tuao Cagayan, Philippines</p>
             <div className='my-4'>
               <p>Tel:</p>
-              <p>0917-622-3204</p>
+              <p>0927-575-4104</p>
             </div>
             <div className='my-4'>
               <p>Email:</p>
@@ -33,20 +33,11 @@ const Footer = () => {
           <div>
             <p className='text-2xl mb-2 mt-6'>Follow Us</p>
             <div className='cursor-pointer my-3'>
-              <Link href='https://web.facebook.com'>
+              <Link href='https://web.facebook.com/JBCFitness18?_rdc=1&_rdr'>
                 <a>Facebook</a>
               </Link>
             </div>
-            <div className='cursor-pointer my-3'>
-              <Link href='https://www.instagram.com'>
-                <a>Instagram</a>
-              </Link>
-            </div>
-            <div className='cursor-pointer my-3'>
-              <Link href='https://twitter.com'>
-                <a>Twitter</a>
-              </Link>
-            </div>
+    
           </div>
         </div>
         <footer className='text-sm mt-8 pb-2 text-center'>
