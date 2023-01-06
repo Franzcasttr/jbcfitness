@@ -6,7 +6,7 @@ const Clips = () => {
       </p>
       <div className='video-container neon rounded-xl mt-8'>
         <iframe
-          src='https://www.youtube.com/embed/G5xSLbYMr-I'
+          src='https://www.youtube.com/embed/tUykoP30Gb0'
           title='YouTube video player'
           frameBorder='0'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
